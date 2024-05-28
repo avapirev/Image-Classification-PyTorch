@@ -10,7 +10,7 @@ class initialize_dataset:
         self.MNIST = MNIST
 
     def load_dataset(self, transform=False):
-        path = "/home/mayur/Desktop/Pytorch/data"
+        path = "/scratch/leuven/304/vsc30484/Image-Classification-PyTorch/data"
         #path = './data'
         if transform:
             transform = augmentation(image_resolution=self.image_resolution)
